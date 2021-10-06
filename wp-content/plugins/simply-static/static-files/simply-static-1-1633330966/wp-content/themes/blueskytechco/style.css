@@ -1,0 +1,149 @@
+    .woocommerce ul.products li.product .add_to_cart_button {
+        display: none !important;
+    }
+    
+    .eael-grid-post-excerpt,
+    .pt-cv-ifield {
+        text-align: center;
+    }
+    
+    .pt-cv-title a {
+        margin-top: 27px;
+    }
+    
+    .pt-cv-title a,
+    .woocommerce-product-details__short-description p,
+    .pt-cv-content,
+    .pt-cv-readmore {
+        color: #222222;
+        font-family: "a-markprobook", Sans-serif;
+    }
+    
+    .pt-cv-content .pt-cv-readmore {
+        border: 2px solid black;
+        border-radius: 3px;
+        padding: 9px 25px;
+    }
+    
+    .elementor-field-group #submitEmail span {
+        padding: 10px 0
+    }
+    
+    .elementor-239 .elementor-element.elementor-element-e8d5c83 .menu-item a.hfe-menu-item,
+    .elementor-239 .elementor-element.elementor-element-f70e3e3 .menu-item a.hfe-menu-item {
+        padding-left: 0 !important;
+    }
+    
+    .elementor-field-type-email {
+        width: 80% !important;
+    }
+    
+    .elementor-field-type-email input {
+        border: none !important;
+        border-bottom: 2px solid black !important;
+    }
+    
+    .elementor-form-fields-wrapper,
+    .elementor-text-editor {
+        margin: 0 auto !important;
+    }
+    
+    .elementor-form-fields-wrapper {
+        width: 90%;
+    }
+    
+    .woocommerce-product-details__short-description p {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 0 0 13px 0;
+    }
+    
+    .product {
+        margin-top: 4px !important;
+    }
+    
+    .woocommerce-loop-product__title {
+        margin-top: 37px !important;
+    }
+    
+    .elementor-text-editor {
+        width: 48% !important;
+    }
+    
+    #comment-cus {
+        width: 90%;
+    }
+    
+    @media screen and (min-width: 1024px) {
+        .elementor-18 .elementor-element.elementor-element-903c60f>.elementor-widget-container,
+        .elementor-18 .elementor-element.elementor-element-77581f4>.elementor-widget-container,
+        .elementor-18 .elementor-element.elementor-element-ddbba67>.elementor-widget-container {
+            margin: 0px 0px 0px 0px;
+            padding: 0px 0px 0px 0150px;
+        }
+        .elementor-18 .elementor-element.elementor-element-903c60f {
+            top: 33%;
+        }
+        .elementor-18 .elementor-element.elementor-element-77581f4 {
+            top: 45%;
+        }
+        .elementor-18 .elementor-element.elementor-element-ddbba67 {
+            top: 70%;
+        }
+        .elementor-18 .elementor-element.elementor-element-77581f4 .elementor-heading-title {
+            color: #222222;
+            font-family: "a-markprobook", Sans-serif;
+            font-size: 42px;
+            font-weight: bold;
+            letter-spacing: -1.7px;
+        }
+    }
+    
+    @media screen and (min-width: 1440px) {
+        .elementor-18 .elementor-element.elementor-element-77581f4 .elementor-heading-title {
+            font-size: 60px;
+        }
+    }
+    
+    @media screen and (min-width: 1580px) {
+        .elementor-18 .elementor-element.elementor-element-84e5eb7,
+        .elementor-18 .elementor-element.elementor-element-784ad16,
+        .elementor-18 .elementor-element.elementor-element-3772ab2 {
+            top: 50%
+        }
+        #comment-cus {
+            width: 50%;
+        }
+        .elementor-form-fields-wrapper {
+            width: 42%;
+        }
+    }
+    
+    @media screen and (min-width: 1920px) {
+        .elementor-18 .elementor-element.elementor-element-eb14f17 {
+            top: 72%;
+        }
+        .elementor-18 .elementor-element.elementor-element-903c60f>.elementor-widget-container,
+        .elementor-18 .elementor-element.elementor-element-77581f4>.elementor-widget-container,
+        .elementor-18 .elementor-element.elementor-element-ddbba67>.elementor-widget-container {
+            padding: 0px 0px 0px 0250px;
+        }
+        .elementor-element-0245975 img,
+        .elementor-element-68eb8d1 img,
+        .elementor-element-2b42cfc img,
+        .elementor-element-f064aa1 img,
+        .elementor-element-4308051 img,
+        .elementor-element-105738f img,
+        .elementor-element-3feb8c8 img,
+        .elementor-element-0701d7d img,
+        .elementor-element-d23a7c7 img,
+        .elementor-element-6f6b417 img {
+            width: 100% !important;
+        }
+        .elementor-18 .elementor-element.elementor-element-77581f4 {
+            top: 39%;
+        }
+        .elementor-18 .elementor-element.elementor-element-ddbba67 {
+            top: 59%;
+        }
+    }
