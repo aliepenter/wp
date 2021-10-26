@@ -4,20 +4,20 @@
     box-sizing: border-box;
 }
 
-#switchLight .container {
+.light-switch,
+.container {
+    position: relative;
+}
+
+.container {
     max-width: 90%;
     margin: 20px auto;
-    position: relative;
     max-height: 720px;
 }
 
 .img {
     max-width: 100%;
     display: none;
-}
-
-.wid100 {
-    width: 100%;
 }
 
 .img.active {
@@ -31,39 +31,50 @@
 
 .col_16_67 {
     width: 16.6667%;
-    text-align: center;
 }
 
 
 /* Switch Style */
 
-.switch-container {
+.switch-container,
+.light-switch .slider,
+.button {
     position: absolute;
+}
+
+.switch-container {
     max-width: 35%;
     height: 25%;
     background: rgba(169, 169, 169, .7);
     bottom: 0;
 }
 
-.switch-container .heading {
+.switch-container .heading,
+.switch-container .switch-button-container,
+.wid100 {
     width: 100%;
+}
+
+.switch-container .heading {
     padding: 20px 0 20px 10px
+}
+
+.switch-container .heading span,
+.off {
+    color: white;
 }
 
 .switch-container .heading span {
     text-transform: uppercase;
-    color: white;
 }
 
 .switch-container .switch-button-container {
-    width: 100%;
     padding: 0px 0 15px 10px;
 }
 
 .light-switch {
     display: inline-block;
     height: 60px;
-    position: relative;
     width: 34px;
     margin: 0 1px;
 }
@@ -83,28 +94,24 @@
     bottom: 0;
     cursor: pointer;
     left: 0;
-    position: absolute;
     right: 0;
     top: 0;
     transition: .25s all ease-in-out;
 }
 
-.off {
-    color: white;
+label {
+    border-radius: 20px;
 }
 
-.on {}
-
-label {
-    background: black;
-    border-radius: 20px;
+.switch-container .switch-button-container p,
+.col_16_67 {
+    text-align: center;
 }
 
 .switch-container .switch-button-container p {
     color: #fff;
     font-size: 14px;
     margin-bottom: 0.5rem;
-    text-align: center;
 }
 
 .switch-container .switch-button-container input {
@@ -112,17 +119,23 @@ label {
 }
 
 .button {
-    position: absolute;
     border-radius: 50%;
     padding: 014px;
 }
 
 .button.off {
     background-color: white;
+}
+
+.button.off {
     bottom: 5px;
 }
 
-.button.on {
+.button.on,
+label {
     background-color: black;
+}
+
+.button.on {
     top: 5px;
 }
